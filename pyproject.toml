@@ -1,0 +1,13 @@
+[project]
+name = "az-ocr-scanner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "azure-ai-formrecognizer>=3.3.3",
+    "azure-ai-textanalytics>=5.3.0",
+    "azure-cognitiveservices-vision-computervision>=0.9.1",
+    "openai>=1.98.0",
+    "python-dotenv>=1.1.1",
+]
