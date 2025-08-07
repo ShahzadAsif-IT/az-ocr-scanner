@@ -1,5 +1,5 @@
 from openai import AzureOpenAI
-from src.env_vars import get_env
+from env_vars import get_env
 import json
 
 def extract_fields_with_gpt(full_text: str):

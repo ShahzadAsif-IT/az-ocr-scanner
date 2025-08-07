@@ -1,8 +1,8 @@
 from dotenv import load_dotenv, find_dotenv
-from src.ocr_processing import perform_handwriting_ocr
-from src.field_extraction import get_structured_data
-from src.gpt_enhancement import validate_and_correct_fields
-from src.query_answering import answer_query_about_form
+from ocr_processing import perform_handwriting_ocr
+from field_extraction import get_structured_data
+from gpt_enhancement import validate_and_correct_fields
+from query_answering import answer_query_about_form
 
 def process_form(image_path: str, user_questions: list[str] = None):
     load_dotenv(find_dotenv())
