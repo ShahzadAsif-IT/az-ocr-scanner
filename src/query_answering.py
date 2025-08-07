@@ -2,7 +2,7 @@ import os
 import math
 from datetime import datetime
 from openai import AzureOpenAI
-from src.env_vars import get_env
+from env_vars import get_env
 
 def answer_query_about_form(fields: dict, question: str):
     """Answer a user query about the form using GPT-4, providing the form data as context."""
