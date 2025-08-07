@@ -1,5 +1,5 @@
 import re
-from src.gpt_enhancement import extract_fields_with_gpt
+from gpt_enhancement import extract_fields_with_gpt
 
 # Define expected field labels
 FIELD_LABELS = {
